@@ -1,0 +1,43 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.logo-y-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    background-color: green;
+    border-radius: 5rem;
+    overflow: hidden; 
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botonGit{
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
