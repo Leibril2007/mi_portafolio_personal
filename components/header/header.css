@@ -1,10 +1,12 @@
+@import url('../../config.css');
+
 .head{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
+    background-color: var(--color-azul);
     padding: 1rem;
-    border: 1px solid black;
 }
 
 .logo-y-user{
@@ -26,16 +28,22 @@
     height: 100%;
     object-fit: cover;
 }
+.user{
+    font-family: var(--titulos);
+    color: aliceblue;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .botonGit{
-    background-color: rgb(12, 12, 12);
-    color: aliceblue;
-    font-weight: 600;
     padding: 1rem 2rem;
-    border-radius: 3px;
-    font-size: 1.3rem;
+    font-family: var(--titulos);
+    color: aliceblue;
+    font-weight: 400;
+    font-style: normal;
     cursor: pointer;
     text-decoration: none;
+    font-size: 1.4rem;
 
     display: flex;
     justify-content: center;

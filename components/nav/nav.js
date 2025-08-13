@@ -50,7 +50,7 @@ export function nav() {
 
     let portfolioTitle = document.createElement('h1');
     portfolioTitle.className = "portfolio-title";
-    portfolioTitle.textContent = "Portafolio Personal";
+    portfolioTitle.textContent = "💫 Portafolio Personal 💫";
 
     rightContainer.appendChild(portfolioTitle);
 

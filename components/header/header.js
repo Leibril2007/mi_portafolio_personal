@@ -10,7 +10,7 @@ export function header(){
     let logoDiv = document.createElement('div');
     logoDiv.className = 'logo';
     let logoImg = document.createElement('img');
-    logoImg.src = 'https://makerworld.bblmw.com/makerworld/model/DSM00000000102991/design/2023-12-22_ph7q5t3tgphb.jpg'; 
+    logoImg.src = 'https://i.pinimg.com/1200x/e7/f9/89/e7f9891586ae166c8fbcbc1b17d52f59.jpg'; 
     logoImg.alt = 'Logo';
     logoDiv.appendChild(logoImg);
 
@@ -18,7 +18,7 @@ export function header(){
     // user 
     let user = document.createElement('h2');
     user.className = 'user';
-    user.textContent = 'Nombre de usuario'; 
+    user.textContent = 'Leibril2007'; 
     logoYUser.appendChild(user);
 
     // botonGit

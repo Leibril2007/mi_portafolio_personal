@@ -1,9 +1,11 @@
+@import url('../../config.css');
+
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     padding: 10px;
-    border: 1px solid #ccc;
+    box-shadow: 1px 5px 14px -1px rgba(169,169,169,0.75);
 }
 
 .nav-left {
@@ -13,18 +15,19 @@
 
 .stacks-icons {
     display: flex;
-    gap: 5px;
+    gap: 6px;
 }
 
 .stack-box {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #333;
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 2px solid #cbcaca;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     background-color: white;
+    cursor: pointer;
 }
 
 .stack-img {
@@ -39,7 +42,15 @@
 }
 .portfolio-title{
     font-size: 3rem;
+    font-family: var(--titulos);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-negro);
 }
 .stacks-title{
     align-self: center;
+    font-family: var(--titulos);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-negro);
 }

@@ -9,6 +9,8 @@ html{
     font-family: Calibri;
 }
 :root{
-    --color-rojo: red;
-    --font-titulos: "Inter", sans-serif;
+    --color-azul: #4052D6;
+    --color-azul-real: #1591EA;
+    --color-negro: #333;
+    --titulos: "Konkhmer Sleokchher", system-ui;
 }
