@@ -2,11 +2,12 @@
 
 .footer {
     display: flex;
-    justify-content: space-between;
+/*     justify-content: space-between; */
     align-items: center;
     background-color: var(--color-azul);
     padding: 2rem;
     color: white;
+    gap: 25rem;
 }
 
 .footer-left {
@@ -30,6 +31,10 @@
     font-style: normal;
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+.hol{
+    margin-bottom: 1rem;
 }
 
 .footer-text {

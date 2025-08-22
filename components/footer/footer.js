@@ -15,12 +15,17 @@ export function footer() {
     subtitle.textContent = "Sobre mí";
 
     let paragraph = document.createElement('p');
-    paragraph.className = "footer-text";
-    paragraph.textContent = `The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.`;
+    paragraph.className = "footer-text hol";
+    paragraph.textContent = `¡Holi 👋!`;
+
+    let paragraph2 = document.createElement('p');
+    paragraph2.className = "footer-text";
+    paragraph2.textContent = `Soy Ariel Abigail Subuyuj Ramírez y estoy en mi último año de bachillerato en ciencias y letras con orientación en computación. Me encanta crear páginas web, sobre todo el frontend, aunque también disfruto programar y darle vida a mis proyectos con código. En esta página podrás ver todos mis proyectos, tanto los que hice sola como los que desarrollé en equipo, desde los primeros que realicé hasta los más recientes. ¡Espero que te diviertas explorándolos tanto como yo me divertí creándolos!`;
 
     leftContainer.appendChild(name);
     leftContainer.appendChild(subtitle);
     leftContainer.appendChild(paragraph);
+    leftContainer.appendChild(paragraph2);
 
     // Contenedor derecho (círculo)
     let rightContainer = document.createElement('div');
@@ -30,7 +35,7 @@ export function footer() {
     circle.className = "footer-circle";
     
     let img = document.createElement('img');
-    img.src = "https://1000logos.net/wp-content/uploads/2016/10/Batman-Logo-2000.png"; 
+    img.src = "https://github.com/Leibril2007/Img/blob/main/Logotipo.png?raw=true"; 
     img.alt = "Foto de perfil";
     img.className = "footer-image";
     

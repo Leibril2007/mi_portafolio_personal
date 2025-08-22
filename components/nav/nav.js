@@ -8,7 +8,7 @@ export function nav() {
 
     let stacksTitle = document.createElement('h2');
     stacksTitle.className = "stacks-title";
-    stacksTitle.textContent = "Stacks";
+    stacksTitle.textContent = "Stacks:";
 
     let stacksIcons = document.createElement('div');
     stacksIcons.className = "stacks-icons";
@@ -47,7 +47,7 @@ export function nav() {
 
     let herramientasTitle = document.createElement('h2');
     herramientasTitle.className = "stacks-title";
-    herramientasTitle.textContent = "Herramientas";
+    herramientasTitle.textContent = "Herramientas:";
 
     let herramientasIcons = document.createElement('div');
     herramientasIcons.className = "stacks-icons";
