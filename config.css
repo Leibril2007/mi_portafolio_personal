@@ -9,7 +9,8 @@ html{
     font-family: Calibri;
 }
 :root{
-    --color-azul: #4052D6;
+    /* --color-azul: #4052D6; */
+    --color-azul: #1591EA;
     --color-azul-real: #1591EA;
     --color-negro: #333;
     --titulos: "Konkhmer Sleokchher", system-ui;
