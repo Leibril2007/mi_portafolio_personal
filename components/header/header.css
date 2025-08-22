@@ -44,8 +44,15 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 1.4rem;
+    border-radius: 6px;
+    transition: background-color 0.5s, color 0.5s;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.botonGit:hover {
+    background-color: #0f6bbd; 
+    color: #e0f7ff; 
 }

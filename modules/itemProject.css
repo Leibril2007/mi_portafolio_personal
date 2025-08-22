@@ -1,30 +1,92 @@
+@import url('../../config.css');
+
 .div-item{
     margin-top: 1.3rem;
-    border-bottom: 1px solid rgb(113, 110, 110);
-    padding: 1rem;
+    gap: 15px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 2.3px 4px rgba(0, 0, 0, 0.04); 
 
-    display: flex;
+    font-family: var(--titulos);
+    font-weight: 100;
+    font-style: normal;
+
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+
 }
 
 .indice-div{
-    background-color: #fff;
+    background-color: #0000FF;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tit-Nombre{
     font-size: 1.2rem;
+    color: rgb(73, 72, 72);
 }
 
+.stack-div{
+    color: #7d93a6;
+}
+
+.categoria{
+    justify-self: center;
+    color:#7d2181;
+}
+
+.estado{ 
+    justify-self: center;
+
+    width: 10rem;
+    border-radius: 0.5rem;
+    padding: 3px 10px;
+
+    text-transform: lowercase;
+
+
+    display: flex;
+    justify-content: center;
+}
+.estado-fin{
+    background-color: #d4fdd7;
+    color: #008c40;
+}
+.estado-enProceso{
+    background-color: #fff4c2;
+    color: #8a6d00;
+}
+
+
 .a-githubPage{
+    justify-self: center;
     text-decoration: none;
     color: black;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+.a-githubPage:hover{
+    color:#1591EA;
+    text-decoration: underline;
 }
 
 .btn-Github{
+    justify-self: center;
+
     width: 100%;
     max-width: 8rem;
-    background-color: black;
+    background-color: #4682b4;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 3px;
