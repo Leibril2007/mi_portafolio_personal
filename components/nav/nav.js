@@ -18,13 +18,10 @@ export function nav() {
         "https://icon2.cleanpng.com/20180816/ql/7da0574f943d245723f512620b4e3c51.webp",
         "https://images.seeklogo.com/logo-png/33/1/javascript-logo-png_seeklogo-330541.png",
         "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
+        
+        
         "https://gimgs2.nohat.cc/thumb/f/640/sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo-png--compngwingzoupl.jpg",
-        "https://images.seeklogo.com/logo-png/27/2/python-logo-png_seeklogo-273830.png",
-        "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+        "https://images.seeklogo.com/logo-png/27/2/python-logo-png_seeklogo-273830.png"
     ];
     
     // Crear los 8 cuadros con imagen adentro
@@ -44,6 +41,44 @@ export function nav() {
     leftContainer.appendChild(stacksTitle);
     leftContainer.appendChild(stacksIcons);
 
+    //CENTRO
+    let centerContainer = document.createElement('div');
+    centerContainer.className = "nav-left";
+
+    let herramientasTitle = document.createElement('h2');
+    herramientasTitle.className = "stacks-title";
+    herramientasTitle.textContent = "Herramientas";
+
+    let herramientasIcons = document.createElement('div');
+    herramientasIcons.className = "stacks-icons";
+
+    const herrImages = [
+        
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
+
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+    ];
+    
+    // Crear los 8 cuadros con imagen adentro
+    herrImages.forEach(src => {
+        let box = document.createElement('div');
+        box.className = "stack-box"; 
+    
+        let img = document.createElement('img');
+        img.src = src;
+        img.alt = "stack icon";
+        img.className = "stack-img";
+    
+        box.appendChild(img);
+        herramientasIcons.appendChild(box);
+    });
+
+    centerContainer.appendChild(herramientasTitle);
+    centerContainer.appendChild(herramientasIcons);
+
     // Contenedor derecho (Portafolio Personal)
     let rightContainer = document.createElement('div');
     rightContainer.className = "nav-right";
@@ -56,6 +91,7 @@ export function nav() {
 
     // Agregar al nav
     nav.appendChild(leftContainer);
+    nav.appendChild(centerContainer);
     nav.appendChild(rightContainer);
 
     return nav;

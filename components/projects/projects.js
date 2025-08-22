@@ -12,7 +12,7 @@ export function projects(){
 
     dataProyectos.forEach( (proyecto) => {
 
-        div.appendChild(cadaProject(proyecto.nombre, proyecto.categoria ,  proyecto.githubPage, proyecto.github, proyecto.stacks));
+        div.appendChild(cadaProject(proyecto.nombre, proyecto.categoria ,  proyecto.githubPage, proyecto.github, proyecto.stacks, proyecto.estado));
 
     }); 
 
