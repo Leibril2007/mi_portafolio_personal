@@ -5,7 +5,8 @@
     grid-template-columns: 1fr 1fr;
 
     padding: 10px;
-    box-shadow: 1px 5px 14px -1px rgba(169,169,169,0.75);
+/*     box-shadow: 1px 5px 14px -1px rgba(169,169,169,0.75); */
+    box-shadow: 1px 5px 14px -1px rgba(215, 215, 215, 0.75);
 }
 
 .nav-left {
